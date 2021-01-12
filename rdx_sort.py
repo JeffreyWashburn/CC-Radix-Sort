@@ -11,7 +11,6 @@ def radix_sort(toSort):
         index = (exponent + 1) * (- 1)
         buckets = [[] for i in range(10)]
 
-        # for every number in new..
         for number in new:
             # get the digit we're currently concerned with
             try:
